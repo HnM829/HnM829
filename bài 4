@@ -1,0 +1,18 @@
+program bai4;
+uses crt;
+var i,n,t:integer;
+begin
+clrscr;
+write('nhap n=');
+readln(n);
+t:=0;
+for i:=1 to n do 
+ begin 
+  if ( i mod 5 = 0 ) then
+   begin
+    t:=t+i;
+   end;
+  end;
+writeln('tong cac so thoa man la',t);
+readln
+end.
